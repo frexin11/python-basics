@@ -1,0 +1,11 @@
+#file handling
+
+p = open('/Users/frexin/Developer/Python/file Handing/main.py','r')
+# r = read(default) ->file must exist
+# w = write -> crates file or overwrites
+# a = append -> add to end of file
+# x = create -> create a new file, fail it already exists
+# print(p.read())
+r  = open("/Users/frexin/Developer/Python/file Handing/superman.txt", 'w')
+r.write("hello this is superman this side, hello earth")
+r.close()
